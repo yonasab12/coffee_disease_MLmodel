@@ -1,7 +1,6 @@
 # coffee/views.py
 import os
 import numpy as np
-import tensorflow as tf
 import logging
 from rest_framework.views import APIView
 from rest_framework.response import Response
@@ -71,4 +70,5 @@ class PredictDiseaseView(APIView):
             
         except Exception as e:
             return Response({'error': str(e)}, status=500)
+
 
