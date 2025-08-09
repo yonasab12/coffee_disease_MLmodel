@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-=3exn67%9&61&%bu8g&&1jy(djg-*%h^f%ex_oo(pzbmy#d$*p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = [coffee-diseaseapi.onrender.com,  # Your Render domain
+ALLOWED_HOSTS = ['coffee-diseaseapi.onrender.com',  # Your Render domain
     'localhost',
     '127.0.0.1']
 
@@ -166,3 +166,4 @@ LOGGING = {
     },
 
 }
+
